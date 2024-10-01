@@ -31,7 +31,9 @@ const Header = () => {
         </Link>
       </div>
       <div className='flex justify-between h-[30px] mx-[100px] text-white rounded-xl'>
-        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Máy tính bàn</div>
+        <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>
+          <Link to="/desktop">Máy tính bàn</Link>
+        </div>
         <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Laptop</div>
         <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Tablet</div>
         <div className='cursor-pointer w-[100px] text-center flex-1 hover:text-blue-900 hover:bg-white transition'>Điện thoại</div>
